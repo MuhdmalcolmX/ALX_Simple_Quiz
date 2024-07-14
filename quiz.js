@@ -9,7 +9,7 @@ function checkAnswer() {
     console.log(userAnswer);
 
     // Compare the User’s Answer with the Correct Answer
-    if (userAnswer == correctAnswer) {
+    if (userAnswer === correctAnswer) {
         const para = document.getElementById('feedback').textContent = "Correct! Well done.";
         console.log(para);     
     } else {
